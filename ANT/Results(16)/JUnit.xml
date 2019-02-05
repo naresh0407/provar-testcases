@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Adope_Demo/tests" tests="1" failures="1" skipped="0" hostname="ip-10-0-0-6" time="0.005" timestamp="Mon Jan 28 07:43:10 UTC 2019">
+	<properties>
+		<property name="excludeCallableTestCases" value="false"/>
+		<property name="testEnvironment" value=""/>
+		<property name="pluginOutputLevel" value="INFO"/>
+		<property name="projectPath" value="/usr/local/downloads/prover-testcases"/>
+		<property name="salesforceMetadataCache" value="Reuse"/>
+		<property name="resultsPathDisposition" value="Increment"/>
+		<property name="testOutputLevel" value="INFO"/>
+		<property name="webBrowserType" value="Google Chrome"/>
+		<property name="resultsPath" value="/usr/local/downloads/prover-testcases/ANT/Results"/>
+		<property name="webBrowserConfiguration" value="Full Screen"/>
+		<property name="projectCachePath" value="/usr/local/downloads/.provarCaches"/>
+	</properties>
+	<testcase classname="tests/ConnectTestCase.testcase" name="ConnectTestCase.testcase" time="0.004">
+		<failure message="Execution failed"><![CDATA[Test API not found for Api Call.  Test Step: Set Values: Value1, id: IdentifierImpl{id=com.provar.plugins.bundled.apis.control.SetValues}]]></failure>
+	</testcase>
+</testsuite>
